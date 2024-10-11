@@ -21,7 +21,7 @@ const User = mongoose.model('User', userSchema);
 
 // Define routes
 router.get('/', (req, res) => {
-  res.send('Welcome to the Express-MongoDB app! I am Anji');
+  res.send('Welcome to the Express-MongoDB app! I am Anjini');
 });
 
 // Create a new user (POST request)
