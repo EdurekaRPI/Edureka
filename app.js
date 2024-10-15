@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // MongoDB connection
-const mongoURI = 'mongodb+srv://anjini:Cluster0@cluster0.n8vvg.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0'; // Update this
+const mongoURI = 'mongodb+srv://anjini:Cluster0@cluster0.n8vvg.mongodb.net/myapp?retryWrites=true&w=majority&appName=Cluster0'; // Update this
 mongoose.connect(mongoURI)
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
