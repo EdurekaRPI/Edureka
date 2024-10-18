@@ -7,7 +7,7 @@
 
 ## VM Log In
 ```
-ssh RSID@edureka.cs.rpi.edu
+ssh RCSID@edureka.cs.rpi.edu
 ```
 
 ## Check MongoDB Status
